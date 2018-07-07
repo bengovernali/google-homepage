@@ -2,35 +2,44 @@
 <html lang="en-US">
 <head>
   <title>Google Clone</title>
+  <link href="reset.css" type="text/css" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="images/google_icon.png" type="image/png" rel="icon">
 </head>
 <body>
-  <nav>
-	<a class="about" href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a>
-	<a class "store" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
-	<a class="gmail" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-	<a class="images" href="https://www.google.com/imghp?hl=en&tab=wi">Images</a>
-	<a class="appslink" href=:"https://www.google.com/intl/en/about/products/">Apps</a>
-  </nav>
-	<div id="logo">
+  <header>
+    <nav>
+	  <ul class="left-nav">
+	    <li><a class="about" href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+	    <li><a class="store" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+	  </ul>
+	  <ul class="right-nav">
+	    <li><a class="gmail" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+	    <li><a class="images" href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></li>
+	    <li><a class="apps" href=:"https://www.google.com/intl/en/about/products/">Apps</a></li>
+	  </ul>  
+    </nav>
+  </header>  	
+  <div class="main-content">
+    <div class="logo">
 	  <img src="images/google_logo.png" alt="The Google Logo">
-	</div>
-	<div class="searchbar"  
+    </div>
+    <form class="searchbar">
+        <input type="text">
+	    <img src="images/speechbutton.png" alt="Search by voice">
+    </form>
+    <div class="buttons">
 	  <form>
-		<input type="text">
+	    <input type="submit" value="Google Search">
+	    <input type="submit" value="I'm Feeling Lucky">
 	  </form>
-	  <img src="images/speechbutton.png" alt="Search by voice">
-	</div>
-	<div class="buttons">
-	  <form>
-		<input type="submit" value="Google Search">
-		<input type="submit" value="I'm Feeling Lucky">
-	  </form>
-	</div>
-	<footer>
-	  <a class="advertising" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-	  <a class="business" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-	  <a class="privacy" href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a>
-	  <a class ="terms" href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a>
-	  <a class="settings" href="https://www.google.com/preferences?hl=en">Settings</a>
-	</footer>
+    </div>
+  </div>  
+  <footer>
+	<a class="advertising" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+	<a class="business" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+	<a class="privacy" href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a>
+	<a class ="terms" href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a>
+	<a class="settings" href="https://www.google.com/preferences?hl=en">Settings</a>
+  </footer>
 </body>	

@@ -1,0 +1,70 @@
+header {
+	margin: 20px 13px 20px 13px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	font-size: 13px;
+	color: #000;
+	opacity: 0.75;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.about {
+	padding: 13px;
+}
+
+.images {
+	padding-left: 13px;
+}
+
+.apps {
+	padding: 13px;
+}
+
+.right-nav {
+	float: right;
+}
+
+.main-content {
+	width 50%;
+	text-align: center;
+}
+
+.logo {
+	margin: 89px auto 0 auto;
+	/*width: 50%;
+	text-align: center;*/
+}
+
+.searchbar {
+	margin: 40px auto 0 auto;
+}
+
+.searchbar input {
+	height: 44px;
+	width: 484px;
+	font-size: 16px;
+}
+
+.searchbar img {
+	height: 24px;
+	width: 24px;
+}
