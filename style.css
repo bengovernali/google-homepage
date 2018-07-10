@@ -27,44 +27,99 @@ a:hover {
 	text-decoration: underline;
 }
 
-.about {
+#about {
 	padding: 13px;
 }
 
-.images {
+#images {
 	padding-left: 13px;
 }
 
-.apps {
+#apps {
 	padding: 13px;
 }
 
-.right-nav {
+#right-nav {
 	float: right;
 }
 
-.main-content {
+#main-content {
 	width 50%;
 	text-align: center;
 }
 
-.logo {
-	margin: 89px auto 0 auto;
-	/*width: 50%;
-	text-align: center;*/
+#logo {
+	margin: 180px auto 0 auto;
+	padding-bottom: 25px;
 }
 
-.searchbar {
-	margin: 40px auto 0 auto;
+#searchbar {
+	position: relative;
+	padding: 0;
+	margin: 0;
 }
 
-.searchbar input {
-	height: 44px;
-	width: 484px;
+#search {
+	height: 39px;
+	width: 503px;
+	padding-left: 16px;
+	background: url(images/speechbutton.png) no-repeat right 10px center;
+	background-size: 25px 25px;
+	box-shadow: 0.1px 0.9px 7px 0px #c8c8c8;
+	border: 1px solid #d6d6d6;
 	font-size: 16px;
 }
 
-.searchbar img {
-	height: 24px;
-	width: 24px;
+#buttonsarea {
+	padding-top: 18px;
+}
+
+.buttons {
+	height: 34px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 16px;
+	text-align: center;
+	min-width: 54px;
+	margin: 11px 4px;
+}
+
+footer {
+	bottom: 0px;
+	position: absolute;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	width: 100%;
+	height: 40px;
+}
+
+#footerleft {
+	float: left;
+	position: relative;
+	padding-left: 27px;
+	top: 13.5px;
+}
+
+#footerright {
+	float: right;
+	position: relative;
+	padding-right: 27px;
+	top: 13.5px;
+}
+
+#advertising {
+	padding-right: 27px;
+}
+
+#privacy {
+	padding-right: 27px;
+}
+
+#terms {
+	padding-right: 27px;
 }
